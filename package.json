@@ -1,0 +1,52 @@
+{
+  "name": "otherworld_simulator",
+  "version": "1.0.0",
+  "main": "dist-electron/main/index.js",
+  "description": "Welcome to Worlds Apart Simulator, the ultimate virtual reality game that lets you explore and experience different worlds beyond your wildest imagination. With cutting-edge technology, you can immerse yourself in a variety of fantasy realms, from magical forests to post-apocalyptic wastelands, and everything in between. Create your own avatar, develop your skills, and embark on epic quests with other players from around the globe. Whether you're seeking adventure, fame, or fortune, Worlds Apart Simulator has it all. Are you ready to leave your world behind and enter a new realm of possibilities?",
+  "author": "小莫 <xiaomo1433675239@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "electron",
+    "rollup",
+    "vite",
+    "vue3",
+    "vue"
+  ],
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:3344/"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@mdi/font": "^7.1.96",
+    "@types/marked": "^4.0.8",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "electron": "^22.0.3",
+    "electron-builder": "^23.6.0",
+    "element-plus": "^2.2.30",
+    "less": "^4.1.3",
+    "marked": "^4.2.12",
+    "pinia": "^2.0.30",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-electron": "^0.11.1",
+    "vite-plugin-electron-renderer": "^0.12.1",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vue-tsc": "^1.0.24",
+    "vuetify": "^3.1.10"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.3.4",
+    "electron-request": "^1.8.3",
+    "github-markdown-css": "^5.2.0"
+  }
+}
