@@ -63,7 +63,7 @@ async function createWindow() {
             contextIsolation: false,
         },
         minHeight: height,
-        minWidth: width,
+        width: width,
         frame: false,
     })
 

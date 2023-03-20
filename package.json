@@ -1,6 +1,6 @@
 {
   "name": "otherworld_simulator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist-electron/main/index.js",
   "description": "Welcome to Worlds Apart Simulator, the ultimate virtual reality game that lets you explore and experience different worlds beyond your wildest imagination. With cutting-edge technology, you can immerse yourself in a variety of fantasy realms, from magical forests to post-apocalyptic wastelands, and everything in between. Create your own avatar, develop your skills, and embark on epic quests with other players from around the globe. Whether you're seeking adventure, fame, or fortune, Worlds Apart Simulator has it all. Are you ready to leave your world behind and enter a new realm of possibilities?",
   "author": "小莫 <xiaomo1433675239@outlook.com>",
